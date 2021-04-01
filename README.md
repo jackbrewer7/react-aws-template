@@ -12,15 +12,21 @@ I personally use IntelliJ IDEA Ultimate.
 - Open project in IntelliJ
 - Open as Maven project
 - Open the terminal in IntelliJ
-
-Some dependencies may have to be installed
-- Java
-- Node
-- NPM
-- Maven
-- Gulp
--- npm install --global gulp-cli (inside root of directory)
-
-Then run:
+- Some dependencies may have to be installed
+  - Java
+  - Node
+  - NPM
+  - Maven
+  - Gulp
+    -npm install --global gulp-cli (inside root of directory)
 - mvn clean install
+- java -jar target/yourwebsite-1.0-SNAPSHOT.jar
+- Open up Chrome to http://localhost:5000/
+
+Here you will see a basic app with a create user and get all users functionality. This will not work until you set up AWS credentials and Dynamo backend in AWS.
+
+## Steps to hookup backend
+
+
+# Finish this once I am done refactoring code
 
