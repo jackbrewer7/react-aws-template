@@ -10,5 +10,17 @@ I personally use IntelliJ IDEA Ultimate.
 ## Steps:
 - git clone https://github.com/jackbrewer7/react-aws-template.git
 - Open project in IntelliJ
-- 
+- Open as Maven project
+- Open the terminal in IntelliJ
+
+Some dependencies may have to be installed
+- Java
+- Node
+- NPM
+- Maven
+- Gulp
+-- npm install --global gulp-cli (inside root of directory)
+
+Then run:
+- mvn clean install
 
