@@ -8,10 +8,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bbtutorials</groupId>
-	<artifactId>users</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
-	<name>users</name>
+	<groupId>com</groupId>
+	<artifactId>yourwebsite</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>yourwebsite</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -86,6 +86,18 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-dynamodb</artifactId>
+			<version>1.11.934</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+		<dependency>
+			<groupId>org.jasypt</groupId>
+			<artifactId>jasypt</artifactId>
+			<version>1.9.2</version>
 		</dependency>
 	</dependencies>
 
